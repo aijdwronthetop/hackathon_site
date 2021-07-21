@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#current {
+    border-bottom: 1px solid black;
+    opacity: 1;
+}
+
+.logo {
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+nav {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    width: 100%;
+    background-color: white;
+}
+
+.header {
+    width: 100%;
+    height: 800px;
+    border-bottom: 1px solid black;
+}
+
+.nav__item {
+    opacity: 0.4;
+    transition: 0.3s linear;
+    color: #404040;
+}
+
+.nav__item:hover {
+    transition: 0.3s linear;
+    opacity: 1;
+    border-bottom: 1px solid black;
+}
+
+.left__part {
+    margin-left: 80px;
+}
+
+.right__part {
+    margin-right: 80px;
+}
+
+.left__part .nav__item {
+    margin-left: 30px;
+}
+
+.right__part .nav__item {
+    margin-right: 30px;
+}
+
+.background {
+    height: 735px;
+}
+
+#buy__btn {
+    padding: 10px 18px;
+    background-color: black;
+    color: white;
+    opacity: 1;
+    transition: 0.3s linear;
+    border: 1px solid black;
+}
+
+#buy__btn:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s linear;
+    font-weight: 1000;
+}
+
+.main_line {
+    width: 100%;
+    height: 80px;
+    background-color: #404040;
+}
+
+.first_line {
+    position: absolute;
+    width: 30px;
+    height: 3100px;
+    background-color: #404040;
+    left: 2%;
+}
+
+.second_line {
+    position: absolute;
+    width: 30px;
+    height: 3100px;
+    background-color: #404040;
+    right: 2%;
+}
+
+footer {
+    border-top: 1px solid black;
+    width: 100%;
+    height: 530px;
+    background-color: #404040;
+    margin-top: 500px;
+}
+
+.end {
+    right: 0;
+    float: right;
+    color: white;
+    margin-right: 25px;
+    bottom: 0;
+    position: fixed;
+    margin-bottom: 10px;
+}
+
+#send:hover {
+    transition: 0.3s linear;
+    opacity: 0.7;
+}
+
+.first_history {
+    position: absolute;
+    left: 2%;
+    top: 40%;
+}
+
+#name_history_blocks,
+#date_blocks {
+    background-color: #404040;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.date_block1 {
+    width: 244px;
+    height: 68px;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFC700;
+}
+
+.name_history1 {
+    width: 1100px;
+    height: 68px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+
+#history_texts {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+    height: 440px;
+    width: 1300px;
+    margin-left: 80px;
+}
+
+.text_history1 {
+    margin-top: 70px;
+}
+
+.second_history {
+    position: absolute;
+    left: 2%;
+    top: 130%;
+}
+
+.date_block2 {
+    width: 244px;
+    height: 68px;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFC700;
+}
+
+.name_history2 {
+    width: 1100px;
+    height: 68px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+
+.text_history2 {
+    margin-top: 70px;
+}
+
+.date_block3 {
+    width: 440px;
+    height: 68px;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFC700;
+}
+
+.name_history3 {
+    width: 1100px;
+    height: 68px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+
+.text_history3 {
+    margin-top: 70px;
+}
+
+.third_history {
+    position: absolute;
+    left: 2%;
+    top: 215%;
+}
+
+.date_block4 {
+    width: 244px;
+    height: 68px;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFC700;
+}
+
+.name_history4 {
+    width: 1100px;
+    height: 68px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+
+.text_history4 {
+    margin-top: 70px;
+}
+
+.fourth_history {
+    position: absolute;
+    left: 2%;
+    top: 295%;
+}
+
+.date_block5 {
+    width: 244px;
+    height: 68px;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFC700;
+}
+
+.name_history5 {
+    width: 1100px;
+    height: 68px;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+
+.text_history5 {
+    margin-top: 70px;
+}
+
+.fifth_history {
+    position: absolute;
+    left: 2%;
+    top: 360%;
+}
